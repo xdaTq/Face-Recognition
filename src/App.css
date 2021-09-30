@@ -1,0 +1,41 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.webcam {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 0;
+  width: 850px;
+  height: 650px;
+}
+
+.button {
+  font-family: 'Courier New', Courier;
+  margin-top: 700px;
+  border-radius: 10px;
+	pointer-events: auto;
+	cursor: pointer;
+	background: #02CEFD;
+	border: none;
+	padding: 1.5rem 3rem;
+	display: inline-block;
+}
